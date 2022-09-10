@@ -12,9 +12,13 @@ and Regular expressions.
 
 ## About
 All the names of function arguments as well as local variables are checked to meet the requirements of PEP8:
+
 [S010] Argument name arg_name should be written in snake_case;
+
 [S011] Variable var_name should be written in snake_case;
+
 [S012] The default argument value is mutable.
+
 The program does not force the names of variables outside of functions (for example, in modules or classes). This realized with the AST from the ast module.
 
 Scrypt takes path to file as argument.
