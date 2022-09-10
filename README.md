@@ -23,17 +23,29 @@ Scrypt takes path to file as argument.
 python code_analyzer.py my_module.py
 
 Issues that can be found:
+
 'S001': 'Too long',
+
 'S002': 'Indentation is not a multiple of four',
+
 'S003': 'Unnecessary semicolon after a statement',
+
 'S004': 'Less than two spaces before inline comments',
+
 'S005': 'TODO found',
+
 'S006': 'More than two blank lines preceding a code line',
+
 'S007': 'Too many spaces after construction_name (def or class)',
+
 'S008': 'Class name class_name should be written in CamelCase',
+
 'S009': 'Function name function_name should be written in snake_case',
+
 'S010': 'Argument name arg_name should be written in snake_case',
+
 'S011': 'Variable var_name should be written in snake_case',
+
 'S012': 'The default argument value is mutable'
 
 ## Technologies Used
